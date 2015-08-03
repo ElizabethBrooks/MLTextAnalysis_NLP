@@ -1,0 +1,653 @@
+(lp1
+(dp2
+S'tweet'
+p3
+S" <HANDLE>:  <HANDLE>: It's a sad world. People are literally making hate accounts just to hate on people they're too scared to face.  "
+p4
+sS'sentiment'
+p5
+S'sad'
+p6
+sS'idx'
+p7
+I34
+sa(dp8
+g3
+S'#LOHANTHONYFOLLOWME you follow everybody except me and it makes me feel like  \\U0001f621 \\U0001f62d'
+p9
+sg5
+g6
+sg7
+I33
+sa(dp10
+g3
+S'<HANDLE> Lmaooooo wtf'
+p11
+sg5
+S'excited'
+p12
+sg7
+I59
+sa(dp13
+g3
+S'Why am I so stupid? Literally failing out of school. It needs to be May 2nd already.'
+p14
+sg5
+S'negative'
+p15
+sg7
+I2
+sa(dp16
+g3
+S'Have fun in jail buddy \\U0001f602 \\U0001f44c \\u270c \\U0001f480<HANDLE>'
+p17
+sg5
+S'positive'
+p18
+sg7
+I55
+sa(dp19
+g3
+S'That means when they saw the bombings happened... The first thing they did was draw up t shirt plans. Smh'
+p20
+sg5
+g15
+sg7
+I4
+sa(dp21
+g3
+S"You've got to be kidding me.."
+p22
+sg5
+g15
+sg7
+I6
+sa(dp23
+g3
+S'Im surprised'
+p24
+sg5
+S'neutral'
+p25
+sg7
+I43
+sa(dp26
+g3
+S'Hmmm I want her in the worst way plus I just found out its her birthday'
+p27
+sg5
+g18
+sg7
+I37
+sa(dp28
+g3
+S"It's over. Thank god. #bostonstrong"
+p29
+sg5
+S'calm'
+p30
+sg7
+I11
+sa(dp31
+g3
+S'<HANDLE> your too funny talk about #stalking'
+p32
+sg5
+g18
+sg7
+I65
+sa(dp33
+g3
+S'Omg I do not NOT_want NOT_you NOT_... Relax'
+p34
+sg5
+S'angry'
+p35
+sg7
+I5
+sa(dp36
+g3
+S'#aerosmith dream on at the garden #bruins #bostonstrong'
+p37
+sg5
+g25
+sg7
+I78
+sa(dp38
+g3
+S"<HANDLE> ohhh I see . I fell asleep before everything happened  woke up at 5 when I heard it on the radio now I'm mad scared"
+p39
+sg5
+S'fearful'
+p40
+sg7
+I24
+sa(dp41
+g3
+S'<HANDLE> <HANDLE> <HANDLE> hell yeah'
+p42
+sg5
+g18
+sg7
+I40
+sa(dp43
+g3
+S'I thinks yamis watched rise of the guardians 15 times in the past week... \\U0001f601 \\U0001f52b'
+p44
+sg5
+g18
+sg7
+I9
+sa(dp45
+g3
+S"I'm at Lakin Square (Quincy, MA) "
+p46
+sg5
+g25
+sg7
+I72
+sa(dp47
+g3
+S"iPhone broke ! So I'm back to this my touch 4g -_-"
+p48
+sg5
+g15
+sg7
+I36
+sa(dp49
+g3
+S'This is the worst day of work evveerrrr #plainstoopid'
+p50
+sg5
+g35
+sg7
+I0
+sa(dp51
+g3
+S'Someone come thru wit bud'
+p52
+sg5
+g25
+sg7
+I71
+sa(dp53
+g3
+S'Am I the only one who thinks everything that has happened this week is connected?'
+p54
+sg5
+g25
+sg7
+I22
+sa(dp55
+g3
+S'<HANDLE> I no lolol'
+p56
+sg5
+g18
+sg7
+I56
+sa(dp57
+g3
+S'Anyone just lose power?The swat team is everywhere..'
+p58
+sg5
+g25
+sg7
+I27
+sa(dp59
+g3
+S"I've had a lot of failed relationships. I don't NOT_get NOT_involved NOT_because NOT_I'm NOT_not NOT_equipped"
+p60
+sg5
+g15
+sg7
+I39
+sa(dp61
+g3
+S'Someone needs to show me good stretches before running because I am in so much pain from not NOT_doing NOT_that.'
+p62
+sg5
+g15
+sg7
+I64
+sa(dp63
+g3
+S'Important encounters are planned by the souls long before the bodies see each other. -Paulo Coelho'
+p64
+sg5
+g25
+sg7
+I10
+sa(dp65
+g3
+S'#cloudy #evening #afternoon #spring #day #april #charlesriver #river #cloud #sky #darkness #dusk #calm \\u2026 '
+p66
+sg5
+g30
+sg7
+I77
+sa(dp67
+g3
+S'#prayforboston #CityOfChampions'
+p68
+sg5
+g30
+sg7
+I16
+sa(dp69
+g3
+S"Pregame. So happy I'm here. #Bruins "
+p70
+sg5
+g18
+sg7
+I44
+sa(dp71
+g3
+S'MIT you are 0-3 on parties'
+p72
+sg5
+g15
+sg7
+I68
+sa(dp73
+g3
+S'<HANDLE> <HANDLE> <HANDLE> <HANDLE> <HANDLE> I have my AP team watching video from Monday, Wally Dick is gonna break the case!'
+p74
+sg5
+g12
+sg7
+I54
+sa(dp75
+g3
+S'new avi again, lololol'
+p76
+sg5
+g18
+sg7
+I53
+sa(dp77
+g3
+S'#5wordsihatetohear there is no more food  \\ue411 \\ue411 \\ue411'
+p78
+sg5
+g15
+sg7
+I8
+sa(dp79
+g3
+S' <HANDLE>: FBI: This will be a worldwide investigation.   ~Right. God forbid we focus on one region vs another'
+p80
+sg5
+g15
+sg7
+I15
+sa(dp81
+g3
+S'One of them new Washingtons #mildlyinteresting #newschoolcool @ 17 Vancouver Street '
+p82
+sg5
+g25
+sg7
+I52
+sa(dp83
+g3
+S'<HANDLE> you started it'
+p84
+sg5
+g25
+sg7
+I73
+sa(dp85
+g3
+S'Used to tell you everything'
+p86
+sg5
+g25
+sg7
+I35
+sa(dp87
+g3
+S'Thanking God for keeping my friends safe and praying for those that were harmed and the 2 lives that were taken too soon!'
+p88
+sg5
+g30
+sg7
+I12
+sa(dp89
+g3
+S'Program Analyst'
+p90
+sg5
+g25
+sg7
+I79
+sa(dp91
+g3
+S'This homework '
+p92
+sg5
+g25
+sg7
+I62
+sa(dp93
+g3
+S'Nikkas are lame in Boston like stfu  seat down'
+p94
+sg5
+g35
+sg7
+I7
+sa(dp95
+g3
+S"#FavoriteRapLyrics I'm stuck with the broken smile, No jokin' now, wantin' to grab a swish and smoke this out"
+p96
+sg5
+g18
+sg7
+I38
+sa(dp97
+g3
+S'<HANDLE> <HANDLE> he lived like across the hall from my brother last year when we went to school there shit is crazy'
+p98
+sg5
+g15
+sg7
+I26
+sa(dp99
+g3
+S'Smells great <HANDLE> thanks for providing some familiar comfort #bostonstrong '
+p100
+sg5
+g30
+sg7
+I19
+sa(dp101
+g3
+S'<HANDLE> My wife and I r long time fans of u and your crew.We r right now worried about u Mr. Hill...get some rest!'
+p102
+sg5
+g12
+sg7
+I21
+sa(dp103
+g3
+S'My brother better be going out'
+p104
+sg5
+g25
+sg7
+I66
+sa(dp105
+g3
+S'Take control over everything in your life: EVERYTHING!'
+p106
+sg5
+g12
+sg7
+I57
+sa(dp107
+g3
+S'<HANDLE> LMFAAAAAOOOO'
+p108
+sg5
+g12
+sg7
+I46
+sa(dp109
+g3
+S"<HANDLE> I hope you're okay!! Please let me know!"
+p110
+sg5
+g12
+sg7
+I29
+sa(dp111
+g3
+S'Who else is trying to have a good night ?'
+p112
+sg5
+g18
+sg7
+I42
+sa(dp113
+g3
+S"We don't NOT_live NOT_in NOT_a NOT_safe NOT_world."
+p114
+sg5
+g40
+sg7
+I32
+sa(dp115
+g3
+S"Actually I'm so ready for college and a change of scenery #bringiton"
+p116
+sg5
+g25
+sg7
+I47
+sa(dp117
+g3
+S'<HANDLE> so comfy'
+p118
+sg5
+g30
+sg7
+I13
+sa(dp119
+g3
+S"<HANDLE>: If being joyously in bed at 9:30 on a Friday is wrong, I don't NOT_want NOT_to NOT_be NOT_right. Tonight, at least."
+p120
+sg5
+g18
+sg7
+I18
+sa(dp121
+g3
+S'STOP i am going to pee myself  \\U0001f602  <HANDLE>: So.... '
+p122
+sg5
+g12
+sg7
+I49
+sa(dp123
+g3
+S'Im so tired and my head hurts :/'
+p124
+sg5
+g15
+sg7
+I30
+sa(dp125
+g3
+S'<HANDLE>: agreed!'
+p126
+sg5
+g12
+sg7
+I51
+sa(dp127
+g3
+S"Watched 3 movies since 9. Wow that's probably the most gay thing I've ever said in my life."
+p128
+sg5
+g25
+sg7
+I69
+sa(dp129
+g3
+S"<HANDLE> nothing bud, I'm sticking up for you and everyone else and ending it...I'm sick of his bullshit."
+p130
+sg5
+g35
+sg7
+I3
+sa(dp131
+g3
+S'What are you doing to me Capitals'
+p132
+sg5
+g15
+sg7
+I1
+sa(dp133
+g3
+S"<HANDLE> look what I found in Claire's :) x 21 "
+p134
+sg5
+g18
+sg7
+I41
+sa(dp135
+g3
+S'Sox win 6 straight games the week Boston needs the most love  \\u2764 \\u26be'
+p136
+sg5
+g30
+sg7
+I14
+sa(dp137
+g3
+S'Boston Marathon Bombings: Who Is Tamerlan Tsarnaev?: BOSTON (CBS)  \\u2013 Tamerlan Tsarnaev'
+p138
+sg5
+g25
+sg7
+I75
+sa(dp139
+g3
+S'<HANDLE>: This is wild... hold me...'
+p140
+sg5
+g40
+sg7
+I28
+sa(dp141
+g3
+S"<HANDLE> <HANDLE> you're the two people who have told me about it!! Ill give it a shot"
+p142
+sg5
+g12
+sg7
+I58
+sa(dp143
+g3
+S'Oh my goodness, what happened last night ?'
+p144
+sg5
+g40
+sg7
+I20
+sa(dp145
+g3
+S'Sweet!  Rt<HANDLE>: Going on 98.5 tomorrow right after 10:00 a.m. (EST) to talk Soder-saga  lay out the timeline/go thru the process.'
+p146
+sg5
+g25
+sg7
+I48
+sa(dp147
+g3
+S"<HANDLE> I'm heading out."
+p148
+sg5
+g25
+sg7
+I74
+sa(dp149
+g3
+S"I always considered myself a Chicagoan living in Boston. After yesterday, I realize that I've always been a Bostonian too. #prayforboston"
+p150
+sg5
+g30
+sg7
+I17
+sa(dp151
+g3
+S"I can't NOT_believe NOT_they NOT_killed NOT_one NOT_of NOT_the NOT_guys..it's scary that the other one is out there somewhere still"
+p152
+sg5
+g40
+sg7
+I25
+sa(dp153
+g3
+S'I use I die for iPhoneI just wanna be left alone for tonight...'
+p154
+sg5
+g15
+sg7
+I31
+sa(dp155
+g3
+S'Can you please tell me why this class is taking place in Antarctica? <HANDLE> #TooCold'
+p156
+sg5
+g15
+sg7
+I63
+sa(dp157
+g3
+S"This is turning into something I ain't NOT_hip NOT_too NOT_.."
+p158
+sg5
+g15
+sg7
+I67
+sa(dp159
+g3
+S'<HANDLE> come meet <HANDLE>  \\U0001f60d<HANDLE> GN  Sweet dreams!'
+p160
+sg5
+g30
+sg7
+I45
+sa(dp161
+g3
+S'Popped a Molly im flexing ;3'
+p162
+sg5
+g25
+sg7
+I70
+sa(dp163
+g3
+S'<HANDLE> <HANDLE> nick shes bein a bum'
+p164
+sg5
+g15
+sg7
+I60
+sa(dp165
+g3
+S'Verizon stand at the mall showing the news on thr bombing suspecs LIVE. the amount of ppl who stopped \\u2026 '
+p166
+sg5
+g12
+sg7
+I61
+sa(dp167
+g3
+S'Tommy Doyles Coupon in Cambridge'
+p168
+sg5
+g25
+sg7
+I76
+sa(dp169
+g3
+S' <HANDLE>:  <HANDLE>: Roxbbbbury lt;  \\U0001f612 Dorchester gt; Roxbury  \\U0001f44c \\U0001f44c \\U0001f44c yesss \\U0001f44c \\U0001f60f'
+p170
+sg5
+g12
+sg7
+I50
+sa(dp171
+g3
+S"<HANDLE> Hey I just got up, I saw your tweets, what's happening in Boston?"
+p172
+sg5
+g25
+sg7
+I23
+sa.

@@ -1,0 +1,33 @@
+# author: Hayden Fuss
+
+# consider adding regex and no longer converting to lowercase
+keywords: ["#bostonmarathon",
+           "#marathonmonday",
+           "#patriotsday",
+           "marathon",
+           "boylston",
+           "finish line",
+           "#bostonstrong",
+           "#bostonpride",
+           "#prayforboston",
+           "#pray4bos",
+           "bomb",
+           "explosion",
+           "explode",
+           "pray",
+           "muslim",
+           "watertown",
+           "lockdown",
+           "manhunt",
+           "collier",
+           "tsarnaev",
+           "dzhokhar",
+           "tamerlan"]
+
+time_fmt: "%Y-%m-%d %H:%M:%S"
+
+twitterMarkup: ['&amp;',
+                'https*://t.co/.*',
+                '&lt;',
+                '\[pic\]',
+                '&gt;']

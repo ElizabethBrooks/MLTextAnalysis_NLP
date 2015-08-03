@@ -1,0 +1,653 @@
+(lp1
+(dp2
+S'tweet'
+p3
+S'Finally Peace :D #Relieved'
+p4
+sS'sentiment'
+p5
+S'calm'
+p6
+sS'idx'
+p7
+I18
+sa(dp8
+g3
+S'<HANDLE> are u ok?'
+p9
+sg5
+S'fearful'
+p10
+sg7
+I14
+sa(dp11
+g3
+S'I was ready to sleep at like 2pm what the fuck am I doing awake right now'
+p12
+sg5
+S'angry'
+p13
+sg7
+I1
+sa(dp14
+g3
+S'I wanna see nashy  jazmine .. I have to visit them somehow..'
+p15
+sg5
+S'neutral'
+p16
+sg7
+I36
+sa(dp17
+g3
+S"The news is so slow I already know what's happened by following <HANDLE>"
+p18
+sg5
+S'negative'
+p19
+sg7
+I65
+sa(dp20
+g3
+S"Applebee's for diner. Yum!"
+p21
+sg5
+S'excited'
+p22
+sg7
+I43
+sa(dp23
+g3
+S'My man <HANDLE> turnin 21 today... U already kno what hashtag I gotta use for u buddy haha #liveitup'
+p24
+sg5
+S'positive'
+p25
+sg7
+I79
+sa(dp26
+g3
+S'Getting rid of some pent up anger. Doing demo work at an apartment in Cambridge #lego'
+p27
+sg5
+g13
+sg7
+I50
+sa(dp28
+g3
+S"<HANDLE>: I plan to see yo hoe ass over vacation if i ever find the time broo <HANDLE> Aight, AIght . I'm down with thattt ."
+p29
+sg5
+g19
+sg7
+I64
+sa(dp30
+g3
+S'NYC .., ill be all over you from tomorrow through Tuesday. Tell me something GOOD..,, tell me that ya like me.'
+p31
+sg5
+g25
+sg7
+I55
+sa(dp32
+g3
+S"<HANDLE>: No one cares about MIT....bunch of smart fucks who decide to ply with a gun relax woah that's fucked up ..."
+p33
+sg5
+g13
+sg7
+I7
+sa(dp34
+g3
+S"Looks like I'm ganna be all alone once again ."
+p35
+sg5
+S'sad'
+p36
+sg7
+I32
+sa(dp37
+g3
+S"I'm at Starbucks (Boston, MA) "
+p38
+sg5
+g16
+sg7
+I78
+sa(dp39
+g3
+S'<HANDLE> nah washington'
+p40
+sg5
+g16
+sg7
+I73
+sa(dp41
+g3
+S" <HANDLE>: She's not NOT_mad, she's hurt. "
+p42
+sg5
+g36
+sg7
+I33
+sa(dp43
+g3
+S'<HANDLE> yes. Work Tuesday or Thursday 4-7 with me!!!'
+p44
+sg5
+g22
+sg7
+I42
+sa(dp45
+g3
+S'This weekend though...'
+p46
+sg5
+g16
+sg7
+I62
+sa(dp47
+g3
+S'Fucking speachless and scared'
+p48
+sg5
+g10
+sg7
+I27
+sa(dp49
+g3
+S'Thank you to all the first responders in Boston - hoping for all the best.'
+p50
+sg5
+g6
+sg7
+I11
+sa(dp51
+g3
+S"Very proud of <HANDLE>  <HANDLE> at E3 today! Y'all are amazing! :)"
+p52
+sg5
+g22
+sg7
+I10
+sa(dp53
+g3
+S"Don't NOT_fuck NOT_with NOT_Boston. "
+p54
+sg5
+g13
+sg7
+I2
+sa(dp55
+g3
+S'21.5 fully loaded, shitting my pants!! '
+p56
+sg5
+g10
+sg7
+I46
+sa(dp57
+g3
+S"<HANDLE> I can't NOT_tell NOT_if NOT_Amanda NOT_Bynes NOT_or NOT_the NOT_BIEBZ NOT_crazier"
+p58
+sg5
+g16
+sg7
+I69
+sa(dp59
+g3
+S"Can't NOT_sleep NOT_and NOT_every NOT_channel NOT_I NOT_turn NOT_to NOT_is NOT_marathon NOT_coverage NOT_trying NOT_to NOT_get NOT_away NOT_from NOT_it NOT_but NOT_can't  #GunnaHaveNightmares  someone txt or call"
+p60
+sg5
+g19
+sg7
+I20
+sa(dp61
+g3
+S'<HANDLE> bahahahaha'
+p62
+sg5
+g25
+sg7
+I52
+sa(dp63
+g3
+S'What is wrong with ppl . I just dont NOT_get NOT_it'
+p64
+sg5
+g19
+sg7
+I37
+sa(dp65
+g3
+S'Oh hey MIKA! @ Royale Nightclub '
+p66
+sg5
+g22
+sg7
+I45
+sa(dp67
+g3
+S'<HANDLE> <HANDLE> <HANDLE> <HANDLE> <HANDLE> <HANDLE> <HANDLE> #GetADick'
+p68
+sg5
+g19
+sg7
+I77
+sa(dp69
+g3
+S'One week later'
+p70
+sg5
+g16
+sg7
+I70
+sa(dp71
+g3
+S"MBTA Green Line closed. #PrayForBoston #BREAKING<HANDLE> that's how your arm will get better bro ... Hopefully everything goes well!"
+p72
+sg5
+g6
+sg7
+I16
+sa(dp73
+g3
+S"She's back!!! (@ Gate C32) "
+p74
+sg5
+g22
+sg7
+I41
+sa(dp75
+g3
+S"<HANDLE> atleast you didn't NOT_burn NOT_the NOT_house NOT_down  \\U0001f44c"
+p76
+sg5
+g25
+sg7
+I54
+sa(dp77
+g3
+S'<HANDLE> thats no lie . No lie, no lieeeyayelie lmao... Fail.'
+p78
+sg5
+g16
+sg7
+I60
+sa(dp79
+g3
+S'<HANDLE> awww there Youh GOtt Some LOOveh'
+p80
+sg5
+g22
+sg7
+I12
+sa(dp81
+g3
+S'Being tourist-like (@ Boston Public Garden - <HANDLE> w/ 9 others) '
+p82
+sg5
+g16
+sg7
+I76
+sa(dp83
+g3
+S'My whole body hurts from today!'
+p84
+sg5
+g22
+sg7
+I31
+sa(dp85
+g3
+S"slumbo party because I'm actually afraid to go in my room alone #baby"
+p86
+sg5
+g10
+sg7
+I24
+sa(dp87
+g3
+S"I feel like I'm just wasting my time"
+p88
+sg5
+g36
+sg7
+I38
+sa(dp89
+g3
+S"Vivienne Westwood or Vera Wang.....that's what I'm rocking on my wedding day"
+p90
+sg5
+g16
+sg7
+I58
+sa(dp91
+g3
+S'That is some scary shit. Wtf is going on <HANDLE>'
+p92
+sg5
+g10
+sg7
+I28
+sa(dp93
+g3
+S"i need to learn the national anthem during senior season. You'd think by after all the soccer games I'd know it. <HANDLE>"
+p94
+sg5
+g16
+sg7
+I67
+sa(dp95
+g3
+S'Stomachs in knots.  \\U0001f623'
+p96
+sg5
+g36
+sg7
+I22
+sa(dp97
+g3
+S'Is there really army tanks on the highway.... #shit'
+p98
+sg5
+g10
+sg7
+I26
+sa(dp99
+g3
+S'i am gonna miss my gym friends so much tbh there all nice and were awsomee :/ from period 2 gym class'
+p100
+sg5
+g36
+sg7
+I35
+sa(dp101
+g3
+S'So what the hell is happening at plymouth Bank of America?'
+p102
+sg5
+g13
+sg7
+I29
+sa(dp103
+g3
+S'More photos to come . I am OK I made it out of the area. I was NEXT to the finish line'
+p104
+sg5
+g6
+sg7
+I23
+sa(dp105
+g3
+S'Shower'
+p106
+sg5
+g16
+sg7
+I71
+sa(dp107
+g3
+S'<HANDLE> you are a piece of shit'
+p108
+sg5
+g13
+sg7
+I0
+sa(dp109
+g3
+S"I'm mad I can't NOT_go NOT_out NOT_BUT NOT_I'M NOT_MORE NOT_CONCERNED NOT_ABOUT NOT_THE NOT_MOTHERFUCKING NOT_TERRORIST NOT_RUNNING NOT_AROUND NOT_GOD NOT_KNOWS NOT_WHERE"
+p110
+sg5
+g10
+sg7
+I5
+sa(dp111
+g3
+S"Getting really excited about college! I can't NOT_wait NOT_to NOT_start NOT_going NOT_shopping NOT_for NOT_it!"
+p112
+sg5
+g22
+sg7
+I47
+sa(dp113
+g3
+S'I need to get my tattoo finished soon \\U0001f611 \\U0001f633'
+p114
+sg5
+g16
+sg7
+I53
+sa(dp115
+g3
+S'<HANDLE> good morning :)'
+p116
+sg5
+g25
+sg7
+I51
+sa(dp117
+g3
+S"I'm at Braintree, MA (Braintree, MA) "
+p118
+sg5
+g16
+sg7
+I74
+sa(dp119
+g3
+S'Explosi\\xf3n en Marat\\xf3n de Boston Twitter / theoriginalwak: What the fuck just happened? ... '
+p120
+sg5
+g10
+sg7
+I21
+sa(dp121
+g3
+S'Good morning  \\U0001f614'
+p122
+sg5
+g22
+sg7
+I57
+sa(dp123
+g3
+S"Is that a question for u?  <HANDLE>: Why do people fall in love when they're always breaking up "
+p124
+sg5
+g36
+sg7
+I63
+sa(dp125
+g3
+S'<HANDLE> <HANDLE> never forget that day or the Whittier game!'
+p126
+sg5
+g22
+sg7
+I44
+sa(dp127
+g3
+S"RT <HANDLE>: Boston you're OUR home #BostonStrong "
+p128
+sg5
+g6
+sg7
+I19
+sa(dp129
+g3
+S'Be safe everyone in  around Boston.'
+p130
+sg5
+g6
+sg7
+I13
+sa(dp131
+g3
+S"Chillin' with the #CramFam #Cram9 .........P told me to #Hashtag #War! (@ Fat Cat) "
+p132
+sg5
+g16
+sg7
+I48
+sa(dp133
+g3
+S'I want nachos'
+p134
+sg5
+g16
+sg7
+I72
+sa(dp135
+g3
+S'<HANDLE> aawhh!! Yes you better!!'
+p136
+sg5
+g22
+sg7
+I40
+sa(dp137
+g3
+S'<HANDLE> <HANDLE> what time is the mount ball going to take place? Might have to come shit on you real quick'
+p138
+sg5
+g19
+sg7
+I9
+sa(dp139
+g3
+S'Exhausted  \\U0001f634'
+p140
+sg5
+g19
+sg7
+I61
+sa(dp141
+g3
+S'730  irritated'
+p142
+sg5
+g13
+sg7
+I3
+sa(dp143
+g3
+S'<HANDLE> bang bang #callingthatish'
+p144
+sg5
+g16
+sg7
+I6
+sa(dp145
+g3
+S"I just Wana tell you how I feel, tonight would've been perfect but I don't NOT_Wana NOT_ruin NOT_what NOT_we NOT_have NOT_going. Just tell me you want me. #ineedit"
+p146
+sg5
+g36
+sg7
+I39
+sa(dp147
+g3
+S'That was wired #hahahh'
+p148
+sg5
+g19
+sg7
+I66
+sa(dp149
+g3
+S'Getting calls and texts from Nikki as is she is running #thebest #loveher #soproud'
+p150
+sg5
+g25
+sg7
+I17
+sa(dp151
+g3
+S'When will u stop being mean to me Martin  \\U0001f614  <HANDLE>: <HANDLE>  good for you. '
+p152
+sg5
+g25
+sg7
+I30
+sa(dp153
+g3
+S'Dream  nightmares  \\U0001f3b6'
+p154
+sg5
+g19
+sg7
+I25
+sa(dp155
+g3
+S"To much happened yesterday to even comprehend #smh...Prayers \\U0001f64fgo out to family's who lost someone or injured in the attack"
+p156
+sg5
+g6
+sg7
+I34
+sa(dp157
+g3
+S'14 days ...21 crazyyy didnt even realize'
+p158
+sg5
+g16
+sg7
+I56
+sa(dp159
+g3
+S'RT for a Goodmorning Mention Anyone  \\U0001f618'
+p160
+sg5
+g25
+sg7
+I15
+sa(dp161
+g3
+S'Fuck a fake friend where your real friends at?'
+p162
+sg5
+g13
+sg7
+I4
+sa(dp163
+g3
+S" <HANDLE>: Hold the fuck on , you forgive her about talking shit about your moms that easy ?! CRAZY , I'll kill a nigga !  !!!!!!!!"
+p164
+sg5
+g13
+sg7
+I8
+sa(dp165
+g3
+S'#margaritas <HANDLE> @ Howling Wolf Taqueria '
+p166
+sg5
+g16
+sg7
+I75
+sa(dp167
+g3
+S'The thought if school just....*shivers*'
+p168
+sg5
+g10
+sg7
+I68
+sa(dp169
+g3
+S"Blowing tht other phone up cause I'm bitch here :) I don't NOT_need NOT_u NOT_I'm NOT_living"
+p170
+sg5
+g25
+sg7
+I49
+sa(dp171
+g3
+S'<HANDLE> kept tickling my head last night  \\U0001f602#edcshouldbeinteresting'
+p172
+sg5
+g22
+sg7
+I59
+sa.

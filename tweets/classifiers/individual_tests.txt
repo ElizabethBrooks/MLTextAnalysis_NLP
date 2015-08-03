@@ -1,0 +1,457 @@
+JEREMY
+In [1]: %run testPosNeg.py
+Testing PosNegClassifier...
+             precision    recall  f1-score   support
+
+   positive       0.51      0.76      0.61        33
+    neutral       0.43      0.39      0.41        33
+   negative       0.70      0.42      0.53        33
+
+avg / total       0.55      0.53      0.52        99
+
+Accuracy: 0.525252525253
+[[25  7  1]
+ [15 13  5]
+ [ 9 10 14]]
+...done.
+
+Testing PosNegClassifierLinearSVM...
+             precision    recall  f1-score   support
+
+   positive       0.61      0.52      0.56        33
+    neutral       0.46      0.52      0.49        33
+   negative       0.65      0.67      0.66        33
+
+avg / total       0.57      0.57      0.57        99
+
+Accuracy: 0.565656565657
+[[17 11  5]
+ [ 9 17  7]
+ [ 2  9 22]]
+...done.
+
+Testing PosNegClassifierModifiedSVM...
+             precision    recall  f1-score   support
+
+   positive       0.56      0.45      0.50        33
+    neutral       0.42      0.58      0.49        33
+   negative       0.67      0.55      0.60        33
+
+avg / total       0.55      0.53      0.53        99
+
+Accuracy: 0.525252525253
+[[15 15  3]
+ [ 8 19  6]
+ [ 4 11 18]]
+...done.
+
+Testing PosNegClassifierQuadraticSVM...
+             precision    recall  f1-score   support
+
+   positive       0.59      0.52      0.55        33
+    neutral       0.49      0.61      0.54        33
+   negative       0.62      0.55      0.58        33
+
+avg / total       0.56      0.56      0.56        99
+
+Accuracy: 0.555555555556
+[[17 10  6]
+ [ 8 20  5]
+ [ 4 11 18]]
+...done.
+
+Testing PosNegClassifierLogSVM...
+             precision    recall  f1-score   support
+
+   positive       0.55      0.55      0.55        33
+    neutral       0.40      0.42      0.41        33
+   negative       0.65      0.61      0.62        33
+
+avg / total       0.53      0.53      0.53        99
+
+Accuracy: 0.525252525253
+[[18 10  5]
+ [13 14  6]
+ [ 2 11 20]]
+...done.
+
+Testing PosNegClassifierPerceptronSVM...
+             precision    recall  f1-score   support
+
+   positive       0.50      0.55      0.52        33
+    neutral       0.36      0.30      0.33        33
+   negative       0.51      0.55      0.53        33
+
+avg / total       0.46      0.46      0.46        99
+
+Accuracy: 0.464646464646
+[[18  9  6]
+ [12 10 11]
+ [ 6  9 18]]
+...done.
+
+Testing PosNegClassifierLossSquared...
+             precision    recall  f1-score   support
+
+   positive       0.36      0.15      0.21        33
+    neutral       0.39      0.55      0.46        33
+   negative       0.36      0.42      0.39        33
+
+avg / total       0.37      0.37      0.35        99
+
+Accuracy: 0.373737373737
+[[ 5 14 14]
+ [ 4 18 11]
+ [ 5 14 14]]
+...done.
+
+Testing PosNegClassifierMaxEnt...
+             precision    recall  f1-score   support
+
+   positive       0.51      0.55      0.53        33
+    neutral       0.48      0.45      0.47        33
+   negative       0.55      0.55      0.55        33
+
+avg / total       0.51      0.52      0.51        99
+
+Accuracy: 0.515151515152
+[[18  6  9]
+ [12 15  6]
+ [ 5 10 18]]
+...done.
+
+Testing PosNegClassifierBNB...
+             precision    recall  f1-score   support
+
+   positive       0.56      0.58      0.57        33
+    neutral       0.43      0.70      0.53        33
+   negative       0.91      0.30      0.45        33
+
+avg / total       0.63      0.53      0.52        99
+
+Accuracy: 0.525252525253
+[[19 14  0]
+ [ 9 23  1]
+ [ 6 17 10]]
+...done.
+
+Testing PosNegClassifierRegression...
+             precision    recall  f1-score   support
+
+   positive       0.53      0.55      0.54        33
+    neutral       0.45      0.45      0.45        33
+   negative       0.56      0.55      0.55        33
+
+avg / total       0.52      0.52      0.52        99
+
+Accuracy: 0.515151515152
+[[18  8  7]
+ [11 15  7]
+ [ 5 10 18]]
+...done.
+
+---------------------------------------------------------------------------------------------------------------------
+HAYDEN
+In [2]: %run testPosNeg.py
+Testing PosNegClassifier...
+             precision    recall  f1-score   support
+
+   positive       0.78      0.55      0.64        33
+    neutral       0.53      0.30      0.38        33
+   negative       0.47      0.82      0.60        33
+
+avg / total       0.59      0.56      0.54        99
+
+Accuracy: 0.555555555556
+[[18  7  8]
+ [ 1 10 22]
+ [ 4  2 27]]
+...done.
+
+Testing PosNegClassifierLinearSVM...
+             precision    recall  f1-score   support
+
+   positive       0.57      0.64      0.60        33
+    neutral       0.48      0.30      0.37        33
+   negative       0.56      0.70      0.62        33
+
+avg / total       0.53      0.55      0.53        99
+
+Accuracy: 0.545454545455
+[[21  7  5]
+ [10 10 13]
+ [ 6  4 23]]
+...done.
+
+Testing PosNegClassifierModifiedSVM...
+             precision    recall  f1-score   support
+
+   positive       0.62      0.61      0.62        33
+    neutral       0.56      0.42      0.48        33
+   negative       0.57      0.73      0.64        33
+
+avg / total       0.59      0.59      0.58        99
+
+Accuracy: 0.585858585859
+[[20  8  5]
+ [ 6 14 13]
+ [ 6  3 24]]
+...done.
+
+Testing PosNegClassifierQuadraticSVM...
+             precision    recall  f1-score   support
+
+   positive       0.60      0.55      0.57        33
+    neutral       0.50      0.36      0.42        33
+   negative       0.53      0.73      0.62        33
+
+avg / total       0.54      0.55      0.54        99
+
+Accuracy: 0.545454545455
+[[18  8  7]
+ [ 7 12 14]
+ [ 5  4 24]]
+...done.
+
+Testing PosNegClassifierLogSVM...
+             precision    recall  f1-score   support
+
+   positive       0.70      0.58      0.63        33
+    neutral       0.54      0.45      0.49        33
+   negative       0.57      0.76      0.65        33
+
+avg / total       0.60      0.60      0.59        99
+
+Accuracy: 0.59595959596
+[[19  9  5]
+ [ 4 15 14]
+ [ 4  4 25]]
+...done.
+
+Testing PosNegClassifierPerceptronSVM...
+             precision    recall  f1-score   support
+
+   positive       0.62      0.70      0.66        33
+    neutral       0.52      0.36      0.43        33
+   negative       0.56      0.67      0.61        33
+
+avg / total       0.57      0.58      0.57        99
+
+Accuracy: 0.575757575758
+[[23  6  4]
+ [ 8 12 13]
+ [ 6  5 22]]
+...done.
+
+Testing PosNegClassifierLossSquared...
+             precision    recall  f1-score   support
+
+   positive       0.39      0.33      0.36        33
+    neutral       0.39      0.27      0.32        33
+   negative       0.33      0.48      0.40        33
+
+avg / total       0.37      0.36      0.36        99
+
+Accuracy: 0.363636363636
+[[11  7 15]
+ [ 7  9 17]
+ [10  7 16]]
+...done.
+
+Testing PosNegClassifierMaxEnt...
+             precision    recall  f1-score   support
+
+   positive       0.67      0.55      0.60        33
+    neutral       0.53      0.48      0.51        33
+   negative       0.60      0.76      0.67        33
+
+avg / total       0.60      0.60      0.59        99
+
+Accuracy: 0.59595959596
+[[18 10  5]
+ [ 5 16 12]
+ [ 4  4 25]]
+...done.
+
+Testing PosNegClassifierBNB...
+             precision    recall  f1-score   support
+
+   positive       0.70      0.21      0.33        33
+    neutral       0.40      0.61      0.48        33
+   negative       0.56      0.67      0.61        33
+
+avg / total       0.55      0.49      0.47        99
+
+Accuracy: 0.494949494949
+[[ 7 20  6]
+ [ 2 20 11]
+ [ 1 10 22]]
+...done.
+
+Testing PosNegClassifierRegression...
+             precision    recall  f1-score   support
+
+   positive       0.61      0.61      0.61        33
+    neutral       0.54      0.39      0.46        33
+   negative       0.55      0.70      0.61        33
+
+avg / total       0.57      0.57      0.56        99
+
+Accuracy: 0.565656565657
+[[20  8  5]
+ [ 6 13 14]
+ [ 7  3 23]]
+...done.
+
+---------------------------------------------------------------------------------------------------------------------
+LIZ
+In [3]: %run testPosNeg.py
+Testing PosNegClassifier...
+             precision    recall  f1-score   support
+
+   positive       0.59      0.58      0.58        33
+    neutral       0.69      0.33      0.45        33
+   negative       0.55      0.85      0.67        33
+
+avg / total       0.61      0.59      0.57        99
+
+Accuracy: 0.585858585859
+[[19  2 12]
+ [11 11 11]
+ [ 2  3 28]]
+...done.
+
+Testing PosNegClassifierLinearSVM...
+             precision    recall  f1-score   support
+
+   positive       0.62      0.45      0.53        33
+    neutral       0.47      0.61      0.53        33
+   negative       0.53      0.52      0.52        33
+
+avg / total       0.54      0.53      0.53        99
+
+Accuracy: 0.525252525253
+[[15 12  6]
+ [ 4 20  9]
+ [ 5 11 17]]
+...done.
+
+Testing PosNegClassifierModifiedSVM...
+             precision    recall  f1-score   support
+
+   positive       0.64      0.64      0.64        33
+    neutral       0.53      0.52      0.52        33
+   negative       0.59      0.61      0.60        33
+
+avg / total       0.59      0.59      0.59        99
+
+Accuracy: 0.585858585859
+[[21  6  6]
+ [ 8 17  8]
+ [ 4  9 20]]
+...done.
+
+Testing PosNegClassifierQuadraticSVM...
+             precision    recall  f1-score   support
+
+   positive       0.54      0.61      0.57        33
+    neutral       0.55      0.55      0.55        33
+   negative       0.55      0.48      0.52        33
+
+avg / total       0.55      0.55      0.54        99
+
+Accuracy: 0.545454545455
+[[20  6  7]
+ [ 9 18  6]
+ [ 8  9 16]]
+...done.
+
+Testing PosNegClassifierLogSVM...
+             precision    recall  f1-score   support
+
+   positive       0.58      0.55      0.56        33
+    neutral       0.47      0.48      0.48        33
+   negative       0.56      0.58      0.57        33
+
+avg / total       0.54      0.54      0.54        99
+
+Accuracy: 0.535353535354
+[[18  8  7]
+ [ 9 16  8]
+ [ 4 10 19]]
+...done.
+
+Testing PosNegClassifierPerceptronSVM...
+             precision    recall  f1-score   support
+
+   positive       0.59      0.52      0.55        33
+    neutral       0.47      0.52      0.49        33
+   negative       0.56      0.58      0.57        33
+
+avg / total       0.54      0.54      0.54        99
+
+Accuracy: 0.535353535354
+[[17  9  7]
+ [ 8 17  8]
+ [ 4 10 19]]
+...done.
+
+Testing PosNegClassifierLossSquared...
+             precision    recall  f1-score   support
+
+   positive       0.44      0.33      0.38        33
+    neutral       0.29      0.36      0.32        33
+   negative       0.27      0.27      0.27        33
+
+avg / total       0.34      0.32      0.33        99
+
+Accuracy: 0.323232323232
+[[11 14  8]
+ [ 5 12 16]
+ [ 9 15  9]]
+...done.
+
+Testing PosNegClassifierMaxEnt...
+             precision    recall  f1-score   support
+
+   positive       0.63      0.52      0.57        33
+    neutral       0.53      0.52      0.52        33
+   negative       0.57      0.70      0.63        33
+
+avg / total       0.58      0.58      0.57        99
+
+Accuracy: 0.575757575758
+[[17  7  9]
+ [ 8 17  8]
+ [ 2  8 23]]
+...done.
+
+Testing PosNegClassifierBNB...
+             precision    recall  f1-score   support
+
+   positive       0.72      0.39      0.51        33
+    neutral       0.49      0.76      0.60        33
+   negative       0.57      0.52      0.54        33
+
+avg / total       0.59      0.56      0.55        99
+
+Accuracy: 0.555555555556
+[[13 12  8]
+ [ 3 25  5]
+ [ 2 14 17]]
+...done.
+
+Testing PosNegClassifierRegression...
+             precision    recall  f1-score   support
+
+   positive       0.70      0.48      0.57        33
+    neutral       0.46      0.48      0.47        33
+   negative       0.54      0.67      0.59        33
+
+avg / total       0.56      0.55      0.55        99
+
+Accuracy: 0.545454545455
+[[16  9  8]
+ [ 6 16 11]
+ [ 1 10 22]]
+...done.

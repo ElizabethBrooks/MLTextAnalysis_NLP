@@ -1,0 +1,653 @@
+(lp1
+(dp2
+S'tweet'
+p3
+S'<HANDLE> RESPOND TO ME!!! CHECK YOUR TEXT!!'
+p4
+sS'idx'
+p5
+I0
+sS'sentiment'
+p6
+S'angry'
+p7
+sa(dp8
+g3
+S"That was not NOT_'unity'. That was exactly what it was called, an interfaith service with absolutely no room for compassionate nonbelievers."
+p9
+sg5
+I1
+sg6
+g7
+sa(dp10
+g3
+S'Fucking horse looking'
+p11
+sg5
+I2
+sg6
+g7
+sa(dp12
+g3
+S"FAKE PEOPLE THAT'S THE SHIT I DON'T NOT_LIKE"
+p13
+sg5
+I3
+sg6
+g7
+sa(dp14
+g3
+S'Dude I think Kid Cudi was there! - <HANDLE> No Josh Kid Kudi was not NOT_here NOT_last NOT_night...'
+p15
+sg5
+I4
+sg6
+g7
+sa(dp16
+g3
+S'fuck you and your instagram'
+p17
+sg5
+I5
+sg6
+g7
+sa(dp18
+g3
+S"I hate when I'm nice to a guy and they start liking me .. like NOOOO stop. Don't NOT_like NOT_me."
+p19
+sg5
+I6
+sg6
+g7
+sa(dp20
+g3
+S'<HANDLE> im fucken watching dont NOT_worry NOT_im NOT_drunk NOT_and NOT_need NOT_to NOT_smoke'
+p21
+sg5
+I7
+sg6
+g7
+sa(dp22
+g3
+S'<HANDLE> I know what the fuck'
+p23
+sg5
+I8
+sg6
+g7
+sa(dp24
+g3
+S'<HANDLE> I just want to meet this bastard so I can strap an explosive to him/her and launch him/her in the fucking air like a firework.'
+p25
+sg5
+I9
+sg6
+g7
+sa(dp26
+g3
+S'I have something to say on a more serious note '
+p27
+sg5
+I10
+sg6
+S'calm'
+p28
+sa(dp29
+g3
+S'Through the night blood found at various places, back porch steps etc. He is bleeding.'
+p30
+sg5
+I11
+sg6
+g28
+sa(dp31
+g3
+S'<HANDLE> woah'
+p32
+sg5
+I12
+sg6
+g28
+sa(dp33
+g3
+S'<HANDLE> keep trying I got it eventually. Try the links on the side.'
+p34
+sg5
+I13
+sg6
+g28
+sa(dp35
+g3
+S"Czech Republic: We're Not NOT_Chechnya "
+p36
+sg5
+I14
+sg6
+g28
+sa(dp37
+g3
+S'Witness: Suspects stopped for snacks before fleeing cops: The two Marathon bombing suspects on the run last night... '
+p38
+sg5
+I15
+sg6
+g28
+sa(dp39
+g3
+S"I'm on that good kush  alcohol"
+p40
+sg5
+I16
+sg6
+g28
+sa(dp41
+g3
+S'Obamas in Boston  \\U0001f612'
+p42
+sg5
+I17
+sg6
+g28
+sa(dp43
+g3
+S'<HANDLE> Watch me move to London'
+p44
+sg5
+I18
+sg6
+g28
+sa(dp45
+g3
+S'<HANDLE> my nurse would take care of this disaster - in the mean time #marinabay #quincyisthegoto'
+p46
+sg5
+I19
+sg6
+g28
+sa(dp47
+g3
+S"So he's gone, everything returns to normal and were supposed to forget this happened"
+p48
+sg5
+I20
+sg6
+S'fearful'
+p49
+sa(dp50
+g3
+S'I hate nightmares .. Woke up in a cold sweat  \\U0001f623 \\U0001f61e \\U0001f62d'
+p51
+sg5
+I21
+sg6
+g49
+sa(dp52
+g3
+S"Can't NOT_stop NOT_shaking NOT_.."
+p53
+sg5
+I22
+sg6
+g49
+sa(dp54
+g3
+S"<HANDLE> so freaky. It's nerve-wracking."
+p55
+sg5
+I23
+sg6
+g49
+sa(dp56
+g3
+S"There's something they're not NOT_telling NOT_us NOT_.."
+p57
+sg5
+I24
+sg6
+g49
+sa(dp58
+g3
+S'Boston is shutdown. Be safe everyone. #oneboston Boston Pride. '
+p59
+sg5
+I25
+sg6
+g49
+sa(dp60
+g3
+S'<HANDLE> this is all very stressful for survivors. They all want relief which would come from arrest'
+p61
+sg5
+I26
+sg6
+g49
+sa(dp62
+g3
+S'seeing the whole damn neighborhood in tha woods'
+p63
+sg5
+I27
+sg6
+g49
+sa(dp64
+g3
+S'Marissa just like started choking out of no where'
+p65
+sg5
+I28
+sg6
+g49
+sa(dp66
+g3
+S'Sunil Tripathi wearing a Che Gevara shirt, looks like another supporter of the socialist decease, sadly.  #WatertownShots fired again? Squad cars hauling ass down mt auburn and mem drive'
+p67
+sg5
+I29
+sg6
+g49
+sa(dp68
+g3
+S"You just don't NOT_get NOT_it/:"
+p69
+sg5
+I30
+sg6
+S'sad'
+p70
+sa(dp71
+g3
+S"I want to go to a sox game this year SO badly. I haven't NOT_been NOT_in NOT_like NOT_4 NOT_years."
+p72
+sg5
+I31
+sg6
+g70
+sa(dp73
+g3
+S'I miss you <HANDLE>  :)'
+p74
+sg5
+I32
+sg6
+g70
+sa(dp75
+g3
+S'<HANDLE> smh it raining in Boston...on my birthday lol'
+p76
+sg5
+I33
+sg6
+g70
+sa(dp77
+g3
+S'Drinks are most definitely calling my name after the school week I have had!  \\U0001f378 \\U0001f378 \\U0001f378 \\U0001f37b \\U0001f37b'
+p78
+sg5
+I34
+sg6
+g70
+sa(dp79
+g3
+S'was gonna wear this shirt to work today for #bostonpride but due to safety concerns, no work #prayforboston #manhunt '
+p80
+sg5
+I35
+sg6
+g70
+sa(dp81
+g3
+S'If I treated you the way you treated me you would of never stuck around and put up with it like I did.'
+p82
+sg5
+I36
+sg6
+g70
+sa(dp83
+g3
+S"<HANDLE> I feel you, used to do five days a week but I'm lucky to get three"
+p84
+sg5
+I37
+sg6
+g70
+sa(dp85
+g3
+S'VCAP-DTD Beta score email update: keep waiting #sigh'
+p86
+sg5
+I38
+sg6
+g70
+sa(dp87
+g3
+S"Being an only child isn't NOT_all NOT_it's NOT_cracked NOT_up NOT_to NOT_be #wantanolderbrother #siblings <HANDLE> can I borrow yours ?"
+p88
+sg5
+I39
+sg6
+g70
+sa(dp89
+g3
+S'<HANDLE> okayyyyyyyyyyyyyy :)'
+p90
+sg5
+I40
+sg6
+S'excited'
+p91
+sa(dp92
+g3
+S'<HANDLE> #TRU!'
+p93
+sg5
+I41
+sg6
+g91
+sa(dp94
+g3
+S'<HANDLE> y ru complain I havem all over my face!'
+p95
+sg5
+I42
+sg6
+g91
+sa(dp96
+g3
+S"<HANDLE> I'm at Dudley !"
+p97
+sg5
+I43
+sg6
+g91
+sa(dp98
+g3
+S'I WOKE UP IN A NEW BUGATI !!!'
+p99
+sg5
+I44
+sg6
+g91
+sa(dp100
+g3
+S'Coffee cawfee cahhfee'
+p101
+sg5
+I45
+sg6
+g91
+sa(dp102
+g3
+S'Lemongrass and vanilla bean sundae *\\\\(^o^)/* @ FoMu '
+p103
+sg5
+I46
+sg6
+g91
+sa(dp104
+g3
+S"Today is beautiful. I don't NOT_quite NOT_know NOT_why"
+p105
+sg5
+I47
+sg6
+g91
+sa(dp106
+g3
+S'\\\\o/ (at <HANDLE> for Muse and Biffy Clyro w/ 20 others) '
+p107
+sg5
+I48
+sg6
+g91
+sa(dp108
+g3
+S'Awesome day for a walk with dog and daughter! Amazing weather. (@ bare cove park) : '
+p109
+sg5
+I49
+sg6
+g91
+sa(dp110
+g3
+S'<HANDLE> thanks!'
+p111
+sg5
+I50
+sg6
+S'positive'
+p112
+sa(dp113
+g3
+S'The Red Sox are having one hell of a ge right now, keep it up boys #BostonStrong  \\u2764'
+p114
+sg5
+I51
+sg6
+g112
+sa(dp115
+g3
+S'<HANDLE> my man!!!!!'
+p116
+sg5
+I52
+sg6
+g112
+sa(dp117
+g3
+S"I appreciate everything he's done, hes"
+p118
+sg5
+I53
+sg6
+g112
+sa(dp119
+g3
+S'Feel like I have 25 new boys after last night #loveyall'
+p120
+sg5
+I54
+sg6
+g112
+sa(dp121
+g3
+S"This is the weather I'd rather be dealing with right now with some sun if possible! #Alabama #MarathonMonday "
+p122
+sg5
+I55
+sg6
+g112
+sa(dp123
+g3
+S'<HANDLE> aw.... ): me tooo. We were so cute lol'
+p124
+sg5
+I56
+sg6
+g112
+sa(dp125
+g3
+S'My dad is absolutely killing it at this open mic night night right now'
+p126
+sg5
+I57
+sg6
+g112
+sa(dp127
+g3
+S"<HANDLE> I've done the Thames one and loved it. A bit jet-lagged (hungover) but going to drag myself up for breakfast #allyoucaneat"
+p128
+sg5
+I58
+sg6
+g112
+sa(dp129
+g3
+S'A little #scat music to get your Wednesday going...bee bop duh dee dee wop wop shoo de wop bahhhh  Feeling better now'
+p130
+sg5
+I59
+sg6
+g112
+sa(dp131
+g3
+S'Is it me or is there some irony in that the President under which #DADT and #DOMA were created'
+p132
+sg5
+I60
+sg6
+S'negative'
+p133
+sa(dp134
+g3
+S'Here comes the pain'
+p135
+sg5
+I61
+sg6
+g133
+sa(dp136
+g3
+S'#Honesthour I can show you I dont NOT_give NOT_a NOT_fuck NOT_and NOT_really NOT_not.'
+p137
+sg5
+I62
+sg6
+g133
+sa(dp138
+g3
+S"I will not NOT_believe NOT_a NOT_single NOT_tweet NOT_as NOT_long NOT_as NOT_it's NOT_not NOT_posted NOT_by NOT_some NOT_government NOT_official, or a news station.Nothing is more uncomfortable then witnessing someone having a full conversation with themself. Except maybe someone alone rapping out loud."
+p139
+sg5
+I63
+sg6
+g133
+sa(dp140
+g3
+S'Our God is greater our God is stronger'
+p141
+sg5
+I64
+sg6
+g133
+sa(dp142
+g3
+S"Don't NOT_tell NOT_me NOT_I've NOT_change NOT_tell NOT_me NOT_you NOT_just NOT_never NOT_knew NOT_me"
+p143
+sg5
+I65
+sg6
+g133
+sa(dp144
+g3
+S"<HANDLE> sorry I've been busy at the aid lmao  \\U0001f609 \\U0001f609 \\U0001f609 Lmaoo I'm extremely tired and currently loosing my mind"
+p145
+sg5
+I66
+sg6
+g133
+sa(dp146
+g3
+S'I suck at shopping'
+p147
+sg5
+I67
+sg6
+g133
+sa(dp148
+g3
+S'<HANDLE> <HANDLE> You should fact check the article on Benedict XVI...John Paul II died in 2005, not NOT_1985 #journalism'
+p149
+sg5
+I68
+sg6
+g133
+sa(dp150
+g3
+S'Bradley I love you but you look like an absolute pedophile with that hair #MTVMovieAwards'
+p151
+sg5
+I69
+sg6
+g133
+sa(dp152
+g3
+S'Just posted a photo @ Harvard University '
+p153
+sg5
+I70
+sg6
+S'neutral'
+p154
+sa(dp155
+g3
+S' <HANDLE>: Wizard Kelly from The Proud Family is at the press conference  \\U0001f62d \\U0001f602 \\U0001f62d \\U0001f602 '
+p156
+sg5
+I71
+sg6
+g154
+sa(dp157
+g3
+S'Just posted a photo @ Fort Sewall '
+p158
+sg5
+I72
+sg6
+g154
+sa(dp159
+g3
+S'*plays music* *forgets about it* tomorrow a new day'
+p160
+sg5
+I73
+sg6
+g154
+sa(dp161
+g3
+S"Smoking dope cuz I don't NOT_no NOT_what NOT_to NOT_think"
+p162
+sg5
+I74
+sg6
+g154
+sa(dp163
+g3
+S'<HANDLE> your right i forgot your so perfect bro'
+p164
+sg5
+I75
+sg6
+g154
+sa(dp165
+g3
+S'Lol..fuck outta here with that'
+p166
+sg5
+I76
+sg6
+g154
+sa(dp167
+g3
+S'Mailday yesterday was an auto of Ricardo Almeida '
+p168
+sg5
+I77
+sg6
+g154
+sa(dp169
+g3
+S'#talklikeyourmom ... Not NOT_enough NOT_characters NOT_for NOT_that  \\U0001f605'
+p170
+sg5
+I78
+sg6
+g154
+sa(dp171
+g3
+S'Thanks for proving me right by being wrong XD'
+p172
+sg5
+I79
+sg6
+g154
+sa.
