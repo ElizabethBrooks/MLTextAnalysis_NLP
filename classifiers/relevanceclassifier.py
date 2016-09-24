@@ -1,10 +1,7 @@
 # Author: Elizabeth Brooks
 # File: relevanceclassifier.py
-# Date Modified: 08/03/2015
-# Edited: Hayden Fuss
-
+# Date Modified: 09/23/2016
 # Begin script
-
 # PreProcessor Directives
 import os
 import inspect
@@ -28,12 +25,9 @@ from sklearn.linear_model import SGDRegressor
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.grid_search import GridSearchCV
 from sklearn import metrics
-
 # Global field declarations
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-
 ##########################################################################################################################
-
 # Define class to classify tweet relevance
 class RelevanceClassifier(object):
     # Class constructor to initialize classifier
@@ -52,7 +46,6 @@ class RelevanceClassifier(object):
         # End of func return statement
         return
     # End class constructor
-    
     # Function to initialize the feature sets
     def initCategories(self, paths):
         self.categories = paths.keys()
@@ -67,11 +60,9 @@ class RelevanceClassifier(object):
 	## The classifiers have to be fitted with two arrays: 
 	#   an array X of size [n_samples, n_features] holding the training samples
 	#   and an array Y of size [n_samples] holding the target values (class labels) for the training samples
-        
 	# End of func return statement
         return
     # End initDictSet
-    
     ## Function to build classifier pipeline
     ## Default multinomial NB using chi squared statistics
     def initPipeline(self):
@@ -80,20 +71,16 @@ class RelevanceClassifier(object):
                       ('tfidf', TfidfTransformer()), # Perform TF-iFD weighting on features
                       #('chi2', SelectKBest(chi2, k=2000)), # Use chi squared statistics to select the k best features
                       ('clf', MultinomialNB())]) # Use the multinomial NB classifier
-
         # Fit the created multinomial NB classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
-
         # End func return statement
         return
     # End initPipeline
-
     # Function to classify input tweet  
     def classify(self, tweet_list):
         # Clean the input list of tweets
         for i in range(0,len(tweet_list)):
             tweet_list[i] = self.cleaner(tweet_list[i])
-
         # Return predicted class labels for samples in tweet_list
         return self.classifier.predict(tweet_list)
     # End classify func
@@ -106,14 +93,12 @@ class RelevanceClassifier(object):
 	## This is because multi class probability estimates are derived from binary (one-versus-all, OVA) estimates 
 	# 	by simple normalization, as recommended by Zadrozny and Elkan.
 	## It returns the mean accuracy on the given test data and labels
-
     # Function to get the predicted classifiers confusion matrix
     def getConfusionMatrix(self, actual, predicted):
         print(metrics.classification_report(actual, predicted, target_names=self.categories))
         # Return the confusion matrix
         return metrics.confusion_matrix(actual,predicted)
     # End getConfusionMatrix
-    
     ## Function to perform a grid search for best features
     ## GridSearchCV implements a "fit" method and a "predict" method like any classifier 
     #   except that the parameters of the classifier used to predict is optimized by cross-validation.
@@ -145,9 +130,7 @@ class RelevanceClassifier(object):
         return
     # End getGridSearch 
 # End class RelevanceClassifier super class
-
 ##########################################################################################################################
-
 ## Sub class to perform linear support vector machine (SVM) tweet classification
 ## SGDClassifier arg loss='hinge': (soft-margin) linear Support Vector Machine
 ## Note: SGDClassifier supports multi class classification by combining multiple 
@@ -160,7 +143,6 @@ class RelevanceClassifierLinearSVM(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the linear SVM classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -172,16 +154,13 @@ class RelevanceClassifierLinearSVM(RelevanceClassifier):
         ## SGDClassifier(loss='hinge', penalty='l2', alpha=0.0001, l1_ratio=0.15, fit_intercept=True, n_iter=5, 
         #   shuffle=True, verbose=0, epsilon=0.1, n_jobs=1, random_state=None, learning_rate='optimal', 
         #   eta0=0.0, power_t=0.5, class_weight=None, warm_start=False, average=False)
-
         # Fit the created linear SVM classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierLinearSVM sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform quadratic support vector machine (SVM) tweet classification
 ## SGDClassifier arg loss='squared_hinge' is like hinge, 
 #	which is used for linear SVM, but is quadratically penalized.
@@ -193,7 +172,6 @@ class RelevanceClassifierQuadraticSVM(RelevanceClassifier):
 		# End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the quadratic SVM classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -201,16 +179,13 @@ class RelevanceClassifierQuadraticSVM(RelevanceClassifier):
                             ('tfidf', TfidfTransformer()), # Perform TF-iDF weighting on features
                             ('clf', SGDClassifier(random_state=42, loss='squared_hinge'))]) # Use the quadratic SVM classifier
         # The SGD estimator implements regularized linear models with stochastic gradient descent learning
-
         # Fit the created quadratic SVM classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierQuadraticSVM sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform less sensitive support vector machine (SVM) tweet classification
 ## SGDClassifier arg loss='modified_huber' is another smooth loss that brings tolerance to 
 #	outliers as well as probability estimates.
@@ -224,7 +199,6 @@ class RelevanceClassifierModifiedSVM(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the smoothed SVM classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -232,16 +206,13 @@ class RelevanceClassifierModifiedSVM(RelevanceClassifier):
                             ('tfidf', TfidfTransformer()), # Perform TF-iDF weighting on features
                             ('clf', SGDClassifier(random_state=42, loss='modified_huber'))]) # Use the smoothed SVM classifier
         # The SGD estimator implements regularized linear models with stochastic gradient descent learning
-
         # Fit the created smoothed SVM classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierModifiedSVM sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform logistic regression tweet classification
 ## SGDClassifier arg loss='log' performs logistic regression
 ## Note: since they allow to create a probability model, loss="log" 
@@ -254,7 +225,6 @@ class RelevanceClassifierLogSVM(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the logistic regression classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -262,7 +232,6 @@ class RelevanceClassifierLogSVM(RelevanceClassifier):
                             ('tfidf', TfidfTransformer()), # Perform TF-iDF weighting on features
                             ('clf', SGDClassifier(random_state=42, loss='log'))]) # Use the logistic regression classifier
         # The SGD estimator implements regularized linear models with stochastic gradient descent learning
-
         # Fit the created logistic regression classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
@@ -271,9 +240,7 @@ class RelevanceClassifierLogSVM(RelevanceClassifier):
 # End RelevanceClassifierLogSVM sub class
 # Note: Using loss="log" or loss="modified_huber" enables the predict_proba method, 
 #	which gives a vector of probability estimates per sample.
-
 ##########################################################################################################################
-
 ## Sub class to perform linear regression tweet classification
 ## SGDClassifier arg loss='perceptron' is the linear loss used by the perceptron algorithm
 ## Note: The perceptron algorithm is used for learning weights for features/terms
@@ -285,7 +252,6 @@ class RelevanceClassifierPerceptronSVM(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the perceptron algorithm using classifier via a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -293,16 +259,13 @@ class RelevanceClassifierPerceptronSVM(RelevanceClassifier):
                             ('tfidf', TfidfTransformer(norm='l2', use_idf=True)), # Perform TF-iDF weighting on features
                             ('clf', SGDClassifier(loss='perceptron', alpha=0.0001, epsilon=0.01, n_iter=25, penalty='l2', random_state=42))]) # Use the perceptron algorithm for classification
 		## The SGD estimator implements regularized linear models with stochastic gradient descent learning
-
         # Fit the created perceptron algorithm using classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierPerceptronSVM sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform linear regression tweet classification
 ## SGDClassifier arg loss='huber' transforms the squared loss into a linear loss 
 # 	over a certain distance, see epsilon arg description in initPipeline func below
@@ -316,7 +279,6 @@ class RelevanceClassifierRegression(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the linear regression classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -326,16 +288,13 @@ class RelevanceClassifierRegression(RelevanceClassifier):
         ## The SGD estimator implements regularized linear models with stochastic gradient descent learning
 		## The epsilon arg in the epsilon-insensitive loss functions ('huber', 'epsilon_insensitive', or 'squared_epsilon_insensitive')
 		#	For 'huber' it determines the threshold at which it becomes less important to get the prediction exactly right.
-
         # Fit the created linear regression classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierRegression sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform tweet classification with linear loss
 ## SGDClassifier arg loss='squred_loss' allows for linear modelling similar to the default SGDRegressor
 class RelevanceClassifierLossSquared(RelevanceClassifier):
@@ -346,7 +305,6 @@ class RelevanceClassifierLossSquared(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the linear loss classifier using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -354,16 +312,13 @@ class RelevanceClassifierLossSquared(RelevanceClassifier):
                             ('tfidf', TfidfTransformer()), # Perform TF-iDF weighting on features
                             ('clf', SGDClassifier(random_state=42, loss='squared_loss'))]) # Use the classifier for linear loss
         ## The SGD estimator implements regularized linear models with stochastic gradient descent learning
-		
         # Fit the created linear loss classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
         return
     # End initPipeline override
 # End RelevanceClassifierLossSquared sub class
-
 ##########################################################################################################################
-
 ## Sub class to perform linear regression tweet classification
 ## SGDRegressor is a linear model fitted by minimizing a regularized empirical loss with SGD
 ## SGDRegressor mimics a linear regression using the squared_loss loss parameter and it can also act as
@@ -377,7 +332,6 @@ class RelevanceRegressor(RelevanceClassifier):
         # End of func return statement
         return
     # End sub class constructor
-    
     # Overriding function to build the regressor using a pipeline
     def initPipeline(self):
         # Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -389,7 +343,6 @@ class RelevanceRegressor(RelevanceClassifier):
 		## SGDRegressor(loss='squared_loss', penalty='l2', alpha=0.0001, l1_ratio=0.15, fit_intercept=True, n_iter=5, 
 		# 	shuffle=True, verbose=0, epsilon=0.1, random_state=None, learning_rate='invscaling', eta0=0.01, 
 		# 	power_t=0.25, warm_start=False, average=False)
-
         # Fit the created regressor
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
         # End of func return statement
@@ -398,12 +351,9 @@ class RelevanceRegressor(RelevanceClassifier):
 # End RelevanceRegressor sub class
 ## Note: SGD stands for Stochastic Gradient Descent, where the gradient of the loss is estimated each sample at a time 
 # 	and the model is updated along the way with a decreasing strength schedule (aka learning rate)
-
 ##########################################################################################################################
-
 # Sub class for creating a classifier for maximum entropy tweet analysis
 class RelevanceClassifierMaxEnt(RelevanceClassifier):
-
 	# Sub class constructor
     def __init__(self, paths, cleaner):
 		# Call the super class constructor
@@ -411,26 +361,21 @@ class RelevanceClassifierMaxEnt(RelevanceClassifier):
 		# End of func return statement
         return
 	# End sub class constructor
-		
 	# Overriding function to build LogisticRegression classifier using a pipeline
     def initPipeline(self):
 	    # Pipeline of transformers with a final estimator that behaves like a compound classifier
         self.pipeline = Pipeline([('vect', CountVectorizer(ngram_range=(1,3))), # Create a vector of feature frequencies
                             ('tfidf', TfidfTransformer()), # Perform TF-iDF weighting on features
                             ('clf', LogisticRegression())]) # Use LogisticRegression as the estimator
-							
         # Fit the created LogisticRegression classifier
         self.classifier = self.pipeline.fit(self.tweets, self.labels)
 		# End of func return statement
         return
 	# End initPipeline override
 # End RelevanceClassifierMaxEnt sub class
-
 ##########################################################################################################################
-
 # Sub class for creating a Bernoulli NB classifier for tweet analysis
 class RelevanceClassifierBNB(RelevanceClassifier):
-
 	# Sub class constructor
     def __init__(self, paths, cleaner):
 		# Call the super class constructor
@@ -438,7 +383,6 @@ class RelevanceClassifierBNB(RelevanceClassifier):
 		# End of func return statement
         return
 	# End sub class constructor
-		
 	# Overriding function to build BernoulliNB classifier using a pipeline
     def initPipeline(self):
 		# Pipeline of transformers with a final estimator that behaves like a compound classifier
@@ -452,5 +396,4 @@ class RelevanceClassifierBNB(RelevanceClassifier):
         return
 	# End initPipeline override
 # End RelevanceClassifierBNB sub class
-
 # End script
